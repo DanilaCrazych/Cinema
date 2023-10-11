@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cinema1.HelloController">
+   <children>
+      <Button fx:id="m11" layoutX="38.0" layoutY="121.0" mnemonicParsing="false" onAction="#Mm11" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Label layoutX="8.0" layoutY="14.0" text="Список мест:">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="m12" layoutX="137.0" layoutY="122.0" mnemonicParsing="false" onAction="#Mm12" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m13" layoutX="249.0" layoutY="119.0" mnemonicParsing="false" onAction="#Mm13" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m14" layoutX="355.0" layoutY="120.0" mnemonicParsing="false" onAction="#Mm14" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m15" layoutX="456.0" layoutY="122.0" mnemonicParsing="false" onAction="#Mm15" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m21" layoutX="38.0" layoutY="179.0" mnemonicParsing="false" onAction="#Mm21" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m22" layoutX="137.0" layoutY="180.0" mnemonicParsing="false" onAction="#Mm22" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m23" layoutX="249.0" layoutY="177.0" mnemonicParsing="false" onAction="#Mm23" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m24" layoutX="355.0" layoutY="178.0" mnemonicParsing="false" onAction="#Mm24" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m25" layoutX="456.0" layoutY="178.0" mnemonicParsing="false" onAction="#Mm25" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m31" layoutX="38.0" layoutY="235.0" mnemonicParsing="false" onAction="#Mm31" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m32" layoutX="137.0" layoutY="236.0" mnemonicParsing="false" onAction="#Mm32" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m33" layoutX="249.0" layoutY="233.0" mnemonicParsing="false" onAction="#Mm33" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m34" layoutX="355.0" layoutY="234.0" mnemonicParsing="false" onAction="#Mm34" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Button fx:id="m35" layoutX="456.0" layoutY="236.0" mnemonicParsing="false" onAction="#Mm35" prefHeight="45.0" prefWidth="79.0" style="-fx-background-color: #008000;" text="Свободно" textFill="WHITE" />
+      <Label fx:id="Push" layoutX="31.0" layoutY="46.0" prefHeight="32.0" prefWidth="498.0">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TextFio" layoutX="214.0" layoutY="85.0" promptText="Введите фио" />
+      <Button fx:id="DeBron" layoutX="428.0" layoutY="293.0" mnemonicParsing="false" onAction="#DeBron" text="Отменить бронь" />
+      <Button fx:id="Bron" layoutX="309.0" layoutY="293.0" mnemonicParsing="false" onAction="#Bron" text="Забронировать" />
+      <Label fx:id="Status" layoutX="38.0" layoutY="293.0" prefHeight="26.0" prefWidth="265.0" text="Статус: бронирование">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
